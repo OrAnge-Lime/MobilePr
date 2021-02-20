@@ -1,0 +1,6 @@
+include ':clickbuttonss'
+include ':layouttype3'
+include ':clickbuttons2'
+include ':app'
+project(':layouttype3').projectDir = new File(rootDir, 'layouttype/')
+rootProject.name = "My Application"
