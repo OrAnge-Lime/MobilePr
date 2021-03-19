@@ -1,0 +1,4 @@
+include ':layouttype'
+include ':clickbuttonss'
+include ':app'
+rootProject.name = "Project1"
