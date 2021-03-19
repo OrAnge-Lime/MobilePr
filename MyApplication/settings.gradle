@@ -1,6 +1,7 @@
-include ':clickbuttonss'
-include ':layouttype3'
-include ':clickbuttons2'
-include ':app'
-project(':layouttype3').projectDir = new File(rootDir, 'layouttype/')
+include ':dialog'
+include ':notificationapp'
+include ':toastapp'
+include ':intentfilter'
+include ':multiactivity'
+include ':LifecycleActivity'
 rootProject.name = "My Application"
